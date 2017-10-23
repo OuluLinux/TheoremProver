@@ -1,0 +1,18 @@
+description "An automated theorem prover for first-order logic\377B128,0,0";
+
+noblitz;
+
+uses
+	Core,
+	RefCore;
+
+file
+	TheoremProver.h,
+	TheoremProver.cpp,
+	Parser.cpp,
+	Typecheck.cpp,
+	Evaluation.cpp,
+	Prover.cpp,
+	Language.h,
+	Language.cpp;
+

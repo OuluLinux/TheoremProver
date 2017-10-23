@@ -1,0 +1,22 @@
+description "Reference memory model classes.\377128,0,0";
+
+uses
+	Core;
+
+file
+	RefCore.h,
+	RefCore.cpp,
+	Ref.h,
+	Ref.cpp,
+	Var.h,
+	Var.cpp,
+	Context.h,
+	Context.cpp,
+	MetaNode.h,
+	MetaNode.cpp,
+	MetaContext.h,
+	MetaContext.cpp;
+
+mainconfig
+	"" = "";
+

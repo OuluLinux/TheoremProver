@@ -1,0 +1,6 @@
+#ifndef _LogicCore_icpp_init_stub
+#define _LogicCore_icpp_init_stub
+#include "Core/init"
+#include "RefCore/init"
+#include "ExeCore/init"
+#endif
