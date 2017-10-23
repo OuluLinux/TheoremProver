@@ -8,7 +8,6 @@ TheoremProver is a automated theorem prover for first-order logic. For any prova
 Some notes:
 
 * The proof steps are shown as [sequents](http://en.wikipedia.org/wiki/Sequent).
-* The actual theorem prover is in `prover.py`. The command-line interface (including the parser) is in `main.py`. `language.py` contains boilerplate classes used to represent logical formulae.
 * The system will not accept a lemma unless it can be proven. An axiom is admitted without proof.
 * This is only a pedagogical tool. It is too slow to be used for anything practical.
 
